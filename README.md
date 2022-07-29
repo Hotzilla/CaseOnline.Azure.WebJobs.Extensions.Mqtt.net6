@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/keesschollaart81/CaseOnline.Azure.WebJobs.Extensions.Mqtt/master/readme_banner.png" width=650 alt="CaseOnline.Azure.WebJobs.Extensions.Mqtt"/>
 <br/>
-Mqtt Bindings for Azure Functions
+Mqtt Bindings for Azure Functions, with .net 6 support
 </h1>
 
 <div align="center">
@@ -13,12 +13,15 @@ Mqtt Bindings for Azure Functions
 [![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=CaseOnline.Azure.WebJobs.Extensions.Mqtt&metric=sqale_rating)]()
 </div>
 
-This repository contains the code for the CaseOnline.Azure.WebJobs.Extensions.Mqtt NuGet Package. 
+This repository contains the code for the CaseOnline.Azure.WebJobs.Extensions.Mqtt.net6 NuGet Package. 
+
+It has been forked from original, because the original was not updated in two years.
 
 This package enables you to:
 
 * Trigger an Azure Function based on a MQTT Subscription
 * Publish a message to a MQTT topic as a result of an Azure Function
+* With .net 6 support and Azure Functions v4
 
 Are you curious what MQTT is? Check [this page](http://mqtt.org/faq)!
 
@@ -67,6 +70,7 @@ Please find all working examples in the [sample project](./src/ExampleFunctions/
 
 ## References
 
+- [Original repository](https://github.com/keesschollaart81/CaseOnline.Azure.WebJobs.Extensions.Mqtt)
 - [MQTTnet](https://github.com/chkr1011/MQTTnet)
 
 ## MIT License
