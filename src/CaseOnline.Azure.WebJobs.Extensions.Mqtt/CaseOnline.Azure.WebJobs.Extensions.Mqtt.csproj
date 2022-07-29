@@ -16,23 +16,23 @@
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
-		<VersionPrefix>3.0.0</VersionPrefix>
+		<VersionPrefix>3.0.1</VersionPrefix>
 		<VersionSuffix></VersionSuffix>
 		<PackageTags>azure functions mqtt webjobs trigger binding function webjob</PackageTags>
 		<AssemblyName>CaseOnline.Azure.WebJobs.Extensions.Mqtt</AssemblyName>
 		<RootNamespace>CaseOnline.Azure.WebJobs.Extensions.Mqtt</RootNamespace>
 		<PackageId>CaseOnline.Azure.WebJobs.Extensions.Mqtt.net6</PackageId>
 		<Description>
-			Connect your Azure Function to your Mqtt broker!
+      Connect your Azure Function to your Mqtt broker!
 
-			This package enables you to:
+      This package enables you to:
 
-			* Trigger an Azure Function based on a MQTT Subscription
-			* Publish a message to a MQTT topic as a result of an Azure Function.
+      * Trigger an Azure Function based on a MQTT Subscription
+      * Publish a message to a MQTT topic as a result of an Azure Function.
       * .net 6 support
 
-			For more information, please visit https://github.com/keesschollaart81/CaseOnline.Azure.WebJobs.Extensions.Mqtt.
-		</Description>
+      For more information, please visit https://github.com/keesschollaart81/CaseOnline.Azure.WebJobs.Extensions.Mqtt.
+    </Description>
 		<PackageIcon>logo.png</PackageIcon>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<CodeAnalysisRuleSet>analyzers.ruleset</CodeAnalysisRuleSet>
