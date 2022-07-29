@@ -37,9 +37,9 @@ Are you curious what MQTT is? Check [this page](http://mqtt.org/faq)!
 
 ## Where to get
 
-Install stable releases via Nuget; development releases are available via MyGet.
+Install stable releases via Nuget with package - CaseOnline.Azure.WebJobs.Extensions.Mqtt.net6
 
-Package | [![NuGet](https://img.shields.io/nuget/v/CaseOnline.Azure.WebJobs.Extensions.Mqtt.svg)](https://www.nuget.org/packages/CaseOnline.Azure.WebJobs.Extensions.Mqtt.net6/)
+https://www.nuget.org/packages/CaseOnline.Azure.WebJobs.Extensions.Mqtt.net6/
 ## Examples
 
 This is a simple example, receicing messages for topic ```my/topic/in``` and publishing messages on topic ```testtopic/out```.
