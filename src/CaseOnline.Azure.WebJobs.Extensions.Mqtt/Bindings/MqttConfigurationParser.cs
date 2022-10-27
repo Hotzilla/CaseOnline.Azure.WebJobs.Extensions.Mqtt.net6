@@ -84,9 +84,12 @@ public class MqttConfigurationParser : IMqttConfigurationParser
         if (connectionString.Tls)
         {
             var certificates = new List<X509Certificate2>();
-            using (var cert = new X509Certificate2(connectionString.Certificate))
+            if (connectionString.Certificate != null)
             {
-                certificates.Add(cert);
+                using (var cert = new X509Certificate2(connectionString.Certificate))
+                {
+                    certificates.Add(cert);
+                }
             }
 
             mqttClientOptionsBuilder = mqttClientOptionsBuilder.WithTls(new MqttClientOptionsBuilderTlsParameters
